@@ -1,0 +1,37 @@
+insta-meal
+
+screens -- will store screens
+constants -- will store constants e.g a colot to be used in many cases
+components -- components added to the screens e.g card, header, input e.t
+which will be used in many componsts
+
+Wating for an order can be boring. Why not just go for a pickup knowing
+your order is ready
+Customers can place an order such that when they arrive they will just pick up.
+No waiting
+Product will have a description & an option to choose time
+when food is required. App will send notification to multiple resturants
+and those who can deliver quick will be chosen
+
+Requesting pizza at 12
+Accept Reject
+
+Requesting pap at 12
+Accept Reject
+
+The app will search for the nearest
+
+An app which will be view menu, search and order a meal in resturant
+
+HomeScreen
+search tab
+List of available meals(meal photo, details)
+OrderScreen
+Meal image
+Add to cart
+Preparation time
+DeliveryScreen
+
+
+TODO: 
+yarn add native-base

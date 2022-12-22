@@ -1,0 +1,23 @@
+[
+    {
+      "id": 1,
+      "title": "Pizza",
+      "category": "Breakfast",
+      "price": 21,
+      "image" : ""
+    },
+    {
+      "id": 2,
+      "title": "Rosted Chicken",
+      "category": "Breakfast",
+      "price": 10,
+      "image" : "https://s3.amazonaws.com/uifaces/faces/twitter/ladylexy/128.jpg"
+    },
+    {
+      "id": 32,
+      "title": "Bacon",
+      "category": "Breakfast",
+      "price": 19,
+      "image" : "https://s3.amazonaws.com/uifaces/faces/twitter/adhamdannaway/128.jpg"
+    }
+  ]
