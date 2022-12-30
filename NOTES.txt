@@ -1,3 +1,6 @@
+
+npm start to start the app
+
 insta-meal
 
 screens -- will store screens
@@ -35,3 +38,7 @@ DeliveryScreen
 
 TODO: 
 yarn add native-base
+
+
+ERR: error Android project not found. Are you sure this is a React Native project?
+npx expo run:android
