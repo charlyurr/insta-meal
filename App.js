@@ -4,7 +4,7 @@ import Header from "./Shared/Header";
 import { Provider } from "react-redux";
 import store from "./Redux/store";
 import GetLocation from "./Mapping/GetLocation";
-import SortCoordinates from "./Mapping/SortCoordinates";
+import RenderMap from "./Mapping/RenderMap";
 
 export default function App() {
   return (
@@ -13,7 +13,7 @@ export default function App() {
         <Header />
         {/* <Main /> */}
         {/* <GetLocation /> */}
-        <SortCoordinates />
+        <RenderMap />
       </NavigationContainer>
     </Provider>
   );
