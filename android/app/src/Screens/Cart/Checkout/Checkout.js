@@ -9,7 +9,7 @@ import { KeyboardAwareScrollView } from "react-native-keyboard-aware-scroll-view
 
 import { connect } from "react-redux";
 
-const countries = require("../../../assets/data/countries.json");
+const countries = require("../../../../../../assets/data/countries.json");
 
 const Checkout = (props) => {
   //   const context = useContext(AuthGlobal);

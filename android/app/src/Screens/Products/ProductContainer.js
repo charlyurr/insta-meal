@@ -10,10 +10,10 @@ import {
 import { Feather } from "@expo/vector-icons";
 import Ionicons from "@expo/vector-icons/Ionicons";
 import ProductList from "./ProductList";
-let { height, width } = Dimensions.get("window");
+import { windowWidth, windowHeight } from "../../../../../utils/Dimensions";
 
 // data
-import productData from "../../assets/data/products.json";
+import productData from "../../../../../assets/data/products.json";
 import SearchedProduct from "./SearchedProduct";
 
 function ProductContainer(props) {
@@ -121,7 +121,7 @@ const styles = StyleSheet.create({
     backgroundColor: "#fff",
   },
   listContainer: {
-    height: height,
+    height: windowHeight,
     // flex: 2,
     flexDirection: "row",
     alignItems: "flex-start",

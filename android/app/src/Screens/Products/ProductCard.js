@@ -3,7 +3,7 @@ import Toast from "react-native-toast-message";
 import { Dimensions, Image, StyleSheet, Text, View } from "react-native";
 import InstacastButton from "../../Shared/StyledComponents/InstacastButton";
 import { connect } from "react-redux";
-import * as actions from "../../Redux/Actions/cartActions";
+import * as actions from "../../../../../Redux/Actions/cartActions";
 
 let { width, height } = Dimensions.get("window");
 

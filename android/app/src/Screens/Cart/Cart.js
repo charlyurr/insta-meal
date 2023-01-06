@@ -11,10 +11,11 @@ import {
 } from "react-native";
 import { connect } from "react-redux";
 // import { ListItem } from "react-native-elements";
-import * as actions from "../../Redux/Actions/cartActions";
+import * as actions from "../../../../../Redux/Actions/cartActions";
 import { SwipeListView } from "react-native-swipe-list-view";
 import CartItem from "./CartItem";
 import Icon from "react-native-vector-icons/FontAwesome";
+import { windowWidth, windowHeight } from "../../../../../utils/Dimensions";
 
 /***
  * * Add items to cart
@@ -24,7 +25,6 @@ import Icon from "react-native-vector-icons/FontAwesome";
  */
 
 // import * as actions from "../../Redux/Actions";
-var { height, width } = Dimensions.get("window");
 
 const Cart = (props) => {
   let total = 0;
@@ -109,7 +109,7 @@ const styles = StyleSheet.create({
     elevation: 20,
   },
   emptyContainer: {
-    height: height,
+    height: windowHeight,
     alignItems: "center",
     justifyContent: "center",
     alignContent: "center",
@@ -125,7 +125,7 @@ const styles = StyleSheet.create({
     alignItems: "flex-end",
     paddingRight: 25,
     height: 70,
-    width: width / 1.2,
+    width: windowWidth / 1.2,
   },
   // image: { height: 50, width: 50 },
   // listItem: {

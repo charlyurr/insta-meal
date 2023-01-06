@@ -9,14 +9,14 @@ import {
   Button,
 } from "react-native";
 import { connect } from "react-redux";
-import * as actions from "../../../Redux/Actions/cartActions";
+import * as actions from "../../../../../../Redux/Actions/cartActions";
 import { ListItem } from "react-native-elements";
 
 // import Toast from "react-native-toast-message";
 // import axios from "axios";
 // import baseURL from "../../../assets/common/baseUrl";
 
-var { width, height } = Dimensions.get("window");
+import { windowWidth, windowHeight } from "../../../../../../utils/Dimensions";
 
 const Confirm = (props) => {
   const confirm = props.route.params;
@@ -132,7 +132,7 @@ const mapDispatchToProps = (dispatch) => {
 
 const styles = StyleSheet.create({
   container: {
-    height: height,
+    height: windowHeight,
     padding: 8,
     alignContent: "center",
     backgroundColor: "white",
@@ -152,7 +152,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
     backgroundColor: "white",
     justifyContent: "center",
-    width: width / 1.2,
+    width: windowWidth / 1.2,
   },
   body: {
     margin: 10,
